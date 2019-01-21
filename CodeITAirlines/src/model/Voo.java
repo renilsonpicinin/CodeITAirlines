@@ -98,7 +98,6 @@ public class Voo {
     
     @Override
     public String toString(){
-        return getId() +" - "+ getData() +" - "+ getHora() +" - "+ getOrigem() 
-                +" - "+ getDestino() +" - "+ getAviao().getEmpresa().getNome();
+        return getId() +" - "+ getData() +" - "+ getHora();
     }
 }
